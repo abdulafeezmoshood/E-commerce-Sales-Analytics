@@ -55,4 +55,15 @@ Recommendations for boosting sales based on the data.
 1. ETL
 2. Visualization
 3. Analysis and Business Intelligence
-4. Recommendations 
+4. Recommendations
+
+### Dashboard 
+
+
+
+### Dataset
+[PowerBI Case Study.xlsx](https://github.com/user-attachments/files/17399752/PowerBI.Case.Study.xlsx)
+
+
+
+
