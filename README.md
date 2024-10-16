@@ -19,6 +19,7 @@ This is a Data visualization in Power BI using DAX model building from the e-com
 ## Product performance:
 1. Top 10 best-selling products.
 2. Product categories contributing the most to revenue.
+3. Stock levels of products compared to sales trends. 
 ## Regional Analysis:
 1. Sales performance by region
 2. Identify high-potential regions for future marketing campaigns. 
