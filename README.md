@@ -73,5 +73,8 @@ Insights Page:
 ### Dataset
 [PowerBI Case Study.xlsx](https://github.com/user-attachments/files/17399752/PowerBI.Case.Study.xlsx)
 
+### Report
+[Abdulafeez Moshood - Sales Dashboard.pdf](https://github.com/user-attachments/files/17400130/Abdulafeez.Moshood.-.Sales.Dashboard.pdf)
+
 
 
