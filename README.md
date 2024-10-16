@@ -1,7 +1,8 @@
 # E-commerce-Sales-Analytics
 This is a comprehensive analysis of an e-commerce company that specializes on selling bikes to understand it's sales performance, customer demographics, and product trends. 
 
-### Power BI & DAX 
+### Tool: 
+Power BI & DAX 
 
 ### Case Study 
 
@@ -25,9 +26,33 @@ This is a Data visualization in Power BI using DAX model building from the e-com
 2. Identify high-potential regions for future marketing campaigns. 
 
 ### Business Task
+1. Data Preparation:
+Clean the dataset by removing duplicates, handling missing data, and ensuring data
+types are correct.
+Create new measures (e.g., Sales margin)
 
+2. Data Modeling:
+Establish relationships between tables (e.g., sales, customers, products, store).
+Create measures for key performance indicators (KPIs) such as total sales, average
+sales, profit margins, and more
 
+3. Visualization and Dashboard:
+Create a dashboard that includes:
+Sales trends
+Customer segmentation (pie charts or bar charts for customer demographics).
+Product performance (bar charts or tree maps to display top products).
+Regional performance (maps or filled area charts to show regional sales data).
+Implement slicers and filters (e.g., filter by product category, region, or date).
+Make the dashboard interactive and user-friendly for business stakeholders.
+
+4. Report and Insights:
+Write a summary of key findings:
+Which products and regions are performing best?
+What customer demographics contribute the most to sales?
+Recommendations for boosting sales based on the data.
 
 ### Approach
-ETL
-Analysis 
+1. ETL
+2. Visualization
+3. Analysis and Business Intelligence
+4. Recommendations 
