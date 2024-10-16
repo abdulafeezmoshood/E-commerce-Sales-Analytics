@@ -57,13 +57,21 @@ Recommendations for boosting sales based on the data.
 3. Analysis and Business Intelligence
 4. Recommendations
 
-### Dashboard 
+### Data Modelling
+These shows were the tables are connected using the primary and foreign keys with the order table as my fact table in the project. 
 
+![Data Modeling](https://github.com/user-attachments/assets/014710a1-23bf-4585-a967-5a8a77243280)
 
+### Dashboards 
+Analytics page:
+![Dashboard](https://github.com/user-attachments/assets/72f5f8d1-61af-4b8c-bba5-fa0034be4fb5)
+
+Insights Page:
+
+![Insights page](https://github.com/user-attachments/assets/d32f54f4-985b-4ee8-8ada-dd7f59faeb4d)
 
 ### Dataset
 [PowerBI Case Study.xlsx](https://github.com/user-attachments/files/17399752/PowerBI.Case.Study.xlsx)
-
 
 
 
