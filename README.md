@@ -65,7 +65,7 @@ These shows were the tables are connected using the primary and foreign keys wit
 ### Dashboards 
 Interactive dashboard link:
 
-[<iframe title="Sales Analytics" width="600" height="373.5" src="https://app.fabric.microsoft.com/view?r=eyJrIjoiOTRiOTBmZmQtOTg4Mi00YzY1LTk4ZjEtNzdmMGQ2ZWJlYjIxIiwidCI6IjAyODJjM2QzLTc5YjQtNDM3Zi1hOTVjLTg5OGYyNWE5YWYzMyIsImMiOjN9" frameborder="0" allowFullScreen="true"></iframe>](https://app.fabric.microsoft.com/reportEmbed?reportId=0eb573ff-4e0e-408e-97e4-1ceebc88feea&autoAuth=true&ctid=0282c3d3-79b4-437f-a95c-898f25a9af33)
+https://app.powerbi.com/view?r=eyJrIjoiOTRiOTBmZmQtOTg4Mi00YzY1LTk4ZjEtNzdmMGQ2ZWJlYjIxIiwidCI6IjAyODJjM2QzLTc5YjQtNDM3Zi1hOTVjLTg5OGYyNWE5YWYzMyIsImMiOjN9
 
 Analytics page:
 ![Dashboard](https://github.com/user-attachments/assets/72f5f8d1-61af-4b8c-bba5-fa0034be4fb5)
