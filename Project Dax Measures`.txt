@@ -1,0 +1,32 @@
+Dax Measures
+Avg Sales = AVERAGE(Order_Details[Sales])
+AOV = DIVIDE([Total Sales],[Total Orders])
+Customer Lifespan = DATEDIFF(MIN('Order_Details'[order_date]),MAX('Order_Details'[order_date]),YEAR)
+Curr Year Sales = CALCULATE([Total Sales],'Date Dim'[Year] = "2018")
+Customer MOM = CALCULATE([Total Customers],PARALLELPERIOD('Date Dim'[Date],-1,MONTH))
+Customer YOY var = IF(ISBLANK([Customer MOM]),BLANK(),[Total Customers]-[Customer MOM])
+Customers YOY = CALCULATE([Total Customers],SAMEPERIODLASTYEAR('Date Dim'[Date]))
+Last week = CALCULATE([Total Sales],'Date Dim'[Week Number]= MAX('Date Dim'[Week Number])-1)
+MOM Sales = CALCULATE([Total Sales],PARALLELPERIOD('Date Dim'[Date],-1,MONTH))
+MOM Sales Var = [Total Sales]-[MOM Sales]
+MOM Sales Var % = DIVIDE([MOM Sales Var],[MOM Sales])
+Orders SPLY = CALCULATE([Total Orders],SAMEPERIODLASTYEAR('Date Dim'[Date]))
+Orders YOY var = IF(ISBLANK([Sales SPLY]),BLANK(),[Total Orders]-[Orders SPLY])
+Purchase Frequency = DIVIDE([Total Orders],DISTINCTCOUNT(Order_Details[customer_id]))
+Repeat Customer Rate = DIVIDE([Repeat Customers],[Total Customers])
+Repeat Customers = COUNTROWS(FILTER(DISTINCT(Order_Details[customer_id]), CALCULATE(DISTINCTCOUNT(Order_Details[order_id])) >1 ))
+Sales SPLY = CALCULATE([Total Sales],SAMEPERIODLASTYEAR('Date Dim'[Date]))
+Sales YOY var = IF(ISBLANK([Sales SPLY]),BLANK(),[Total Sales]-[Sales SPLY])
+Sales YTD = CALCULATE([Total Sales],DATESYTD('Date Dim'[Date]))
+Total Customers = COUNT('Customers dim'[customer_id])
+Total Orders = COUNT(Order_Details[order_id])
+Total Sales = SUM(Order_Details[Sales])
+WOW % = DIVIDE([Total Sales]-[Last week],[Last week])
+YOY% Orders Growth = DIVIDE([Orders YOY var],[Orders SPLY])
+YOY% Sales Growth = DIVIDE([Sales YOY var],[Sales SPLY])
+YOY Orders Color = IF([YOY% Orders Growth] > 0,"Green","Red")
+YOY Sales Color = IF([YOY% Sales Growth] > 0," Green","Red")
+
+
+
+
